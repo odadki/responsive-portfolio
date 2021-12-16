@@ -83,15 +83,36 @@ p {
   margin-bottom: 150px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 800px) {
   .album-image {
     display: block;
     text-align: center;
   }
+
   h1 {
     font-size: 50px;
   }
-  p {
-    font-size: 4px;
+
+  .aboutme-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
+}
+
+.about-heading {
+  margin-top: 60px;
+}
+
+.aboutme-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  border-radius: 2000px;
+}
+
+.about-body {
+  background: var(--gradient-bg);
 }
