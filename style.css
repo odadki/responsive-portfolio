@@ -119,11 +119,17 @@ p {
 }
 
 .about-body,
-.music-body {
+.music-body,
+.contact-body {
   background: var(--gradient-bg);
   padding: 130px 20px 70px;
 }
 
 .song-caption {
   font-style: italic;
+}
+
+.contact-info {
+  display: block;
+  padding: 20px 0 20px;
 }
