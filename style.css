@@ -31,7 +31,7 @@ p {
 .hero {
   background: linear-gradient(#92a4bf, #ffffff);
   text-align: center;
-  padding: 160px 20px 70px;
+  padding: 130px 20px 70px;
 }
 
 .hero p {
@@ -76,6 +76,7 @@ p {
 .image-title {
   text-align: center;
   line-height: 2.5;
+  font-weight: bold;
 }
 
 .container {
@@ -113,6 +114,16 @@ p {
   border-radius: 2000px;
 }
 
-.about-body {
+.music-caption {
+  padding: 0 0 50px;
+}
+
+.about-body,
+.music-body {
   background: var(--gradient-bg);
+  padding: 130px 20px 70px;
+}
+
+.song-caption {
+  font-style: italic;
 }
