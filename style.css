@@ -2,6 +2,8 @@
   --heading-font: "Playfair Display", serif;
   --default-font: "Poppins", sans-serif;
   --gradient-bg: linear-gradient(#92a4bf, #ffffff);
+  --current-text: #a2a8d3;
+  --nav-bg: #69779b;
 }
 
 h1,
@@ -17,7 +19,7 @@ h6 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 60px;
 }
 
 h3 {
@@ -84,6 +86,41 @@ p {
   margin-bottom: 150px;
 }
 
+.navigation-bar {
+  background-color: var(--nav-bg);
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  padding: 20px;
+  justify-content: center;
+  font-family: var(--default-font);
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+
+nav li.active a {
+  color: white;
+}
+
+nav a:hover {
+  color: var(--current-text);
+}
+
 @media (max-width: 800px) {
   .album-image {
     display: block;
@@ -91,7 +128,7 @@ p {
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 38px;
   }
 
   .aboutme-pic {
@@ -100,10 +137,6 @@ p {
     margin-right: auto;
     width: 50%;
   }
-}
-
-.about-heading {
-  margin-top: 60px;
 }
 
 .aboutme-pic {
