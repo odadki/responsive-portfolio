@@ -76,22 +76,31 @@ p {
 }
 
 .image-title {
+  display: block;
   text-align: center;
   line-height: 2.5;
   font-weight: bold;
+  font-size: 18px;
+}
+
+.idontwanna {
+  width: 500px;
+}
+
+.album-image {
+  display: block;
+  text-align: center;
+  width: 500px;
 }
 
 .container {
   margin-top: 50px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 .navigation-bar {
   background-color: var(--nav-bg);
-}
-
-nav {
-  padding: 20px 0;
+  padding: 30px;
 }
 
 nav ul {
@@ -122,6 +131,13 @@ nav a:hover {
 }
 
 @media (max-width: 800px) {
+  .navigation-bar {
+    font-size: 12px;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto;
+  }
   .album-image {
     display: block;
     text-align: center;
@@ -136,6 +152,10 @@ nav a:hover {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+  }
+
+  .container {
+    margin-bottom: 0;
   }
 }
 
@@ -165,4 +185,49 @@ nav a:hover {
 .contact-info {
   display: block;
   padding: 20px 0 20px;
+}
+
+footer {
+  margin: 50px 0;
+}
+
+footer .view-work-box {
+  background: var(--nav-bg);
+  padding: 30px;
+  border-radius: 15px;
+  margin: 0 200px 300px;
+}
+
+footer .view-work-text {
+  color: white;
+}
+
+footer .view-projects-btn:hover {
+  color: var(--current-text);
+  border: solid 1px var(--current-text);
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .email-link:hover {
+  color: var(--nav-bg);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--nav-bg);
+}
+
+.btn-mobile {
+  display: block;
+  text-align: center;
+  color: white;
+  background: var(--nav-bg);
+  margin-left: 75px;
+  margin-right: 75px;
 }
