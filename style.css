@@ -87,13 +87,7 @@ p {
   width: 500px;
 }
 
-.album-image {
-  display: block;
-  text-align: center;
-  width: 500px;
-}
-
-.container {
+.homepage-latest {
   margin-top: 50px;
   margin-bottom: 100px;
 }
@@ -228,6 +222,13 @@ footer .social-links a {
   text-align: center;
   color: white;
   background: var(--nav-bg);
+  border: black;
   margin-left: 75px;
   margin-right: 75px;
+}
+
+.btn-mobile:hover {
+  background: white;
+  color: var(--nav-bg);
+  border: solid var(--nav-bg);
 }
