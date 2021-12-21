@@ -232,3 +232,7 @@ footer .social-links a {
   color: var(--nav-bg);
   border: solid var(--nav-bg);
 }
+
+.footer-info {
+  font-size: 14px;
+}
